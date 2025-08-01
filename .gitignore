@@ -1,0 +1,106 @@
+# ===========================
+# Node.js / React / Next.js
+# ===========================
+node_modules/
+dist/
+build/
+.next/
+out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log
+
+# Environment
+.env
+.env.*
+
+# Lock files (optional if using a specific package manager)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===========================
+# TypeScript
+# ===========================
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# ===========================
+# Python / Django
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+*.env
+*.venv
+*.log
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+
+# Django Migrations
+*/migrations/__pycache__/
+*/migrations/*.py[cod]
+*/migrations/*.py
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# ===========================
+# Docker
+# ===========================
+*.tar
+*.img
+*.container
+*.pid
+
+# Docker-specific files (if generated)
+docker-compose.override.yml
+
+# ===========================
+# IDEs / Editors
+# ===========================
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# ===========================
+# OS-specific
+# ===========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.Trashes
+
+# ===========================
+# Testing / Coverage
+# ===========================
+coverage/
+.nyc_output/
+.pytest_cache/
+htmlcov/
+jest-html-reporters-*.html
+test-results/
+
+# ===========================
+# Misc
+# ===========================
+*.tgz
+*.lock-wscript
+.cache/
+.next/
+out/
